@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Nazim HAMEG - BTS SIO SISR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="/Portfolio-HAMEG-Nazim/assets/index-Dajm8Xtm.js"></script>
+  <link rel="stylesheet" crossorigin href="/Portfolio-HAMEG-Nazim/assets/index-ByTxb2rG.css">
+</head>
+<body>
+    <div id="landing-page" class="landing-page active">
+        <div class="matrix-bg"></div>
+        <canvas id="particles-canvas"></canvas>
+        <div class="landing-content">
+            <div id="logo-3d" class="logo-3d">
+                <div class="logo-cube">
+                    <div class="cube-face front">NH</div>
+                    <div class="cube-face back">SIO</div>
+                    <div class="cube-face right">SISR</div>
+                    <div class="cube-face left">BTS</div>
+                    <div class="cube-face top">DEV</div>
+                    <div class="cube-face bottom">NET</div>
+                </div>
+            </div>
+            <h1 class="glitch-text" data-text="NAZIM HAMEG">NAZIM HAMEG</h1>
+            <p class="typing-text">BTS SIO - Option SISR</p>
+            <button id="enter-btn" class="enter-btn">
+                <span>Entrer dans le portfolio</span>
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="portfolio.html#accueil">
+                <span class="brand-logo">NH</span>
+                <span class="brand-text">Nazim HAMEG</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html#accueil"><i class="fas fa-home"></i> Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="presentation.html"><i class="fas fa-user"></i> Présentation</a></li>
+                    <li class="nav-item"><a class="nav-link" href="bts-sio.html"><i class="fas fa-graduation-cap"></i> BTS SIO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="e5.html"><i class="fas fa-graduation-cap"></i> Épreuve E5</a></li>
+                    <li class="nav-item"><a class="nav-link" href="e6.html"><i class="fas fa-briefcase"></i> Épreuve E6</a></li>
+                    <li class="nav-item"><a class="nav-link" href="veille.html"><i class="fas fa-rss"></i> Veille Tech</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html"><i class="fas fa-blog"></i> Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="entreprise.html"><i class="fas fa-building"></i> Entreprise</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main-content" class="main-content">
+        <section id="accueil" class="section hero-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6" data-aos="fade-right">
+                        <h1 class="display-3 fw-bold mb-4">
+                            Bienvenue sur mon<br>
+                            <span class="gradient-text">Portfolio Numérique</span>
+                        </h1>
+                        <p class="lead mb-4">Étudiant en BTS SIO option SISR, passionné par les réseaux, la cybersécurité et l'administration système.</p>
+                        <div class="hero-buttons">
+                            <a href="#e4" class="btn btn-primary btn-lg me-3">
+                                <i class="fas fa-rocket"></i> Voir mes projets
+                            </a>
+                            <a href="#contact" class="btn btn-outline-light btn-lg">
+                                <i class="fas fa-envelope"></i> Me contacter
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-left">
+                        <div class="hero-image">
+                            <div class="floating-card">
+                                <i class="fas fa-network-wired"></i>
+                                <span>Réseaux</span>
+                            </div>
+                            <div class="floating-card">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Sécurité</span>
+                            </div>
+                            <div class="floating-card">
+                                <i class="fas fa-server"></i>
+                                <span>Infrastructure</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="presentation" class="section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">
+                    <i class="fas fa-user-circle"></i>
+                    Présentation
+                </h2>
+                <div class="row">
+                    <div class="col-lg-4" data-aos="fade-right">
+                        <div class="profile-card">
+                            <div class="profile-image">
+                                <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg" alt="Photo professionnelle">
+                                <div class="profile-overlay">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                            </div>
+                            <h3>Nazim HAMEG</h3>
+                            <p class="profile-subtitle">Étudiant BTS SIO - SISR</p>
+                            <div class="profile-info">
+                                <p><i class="fas fa-map-marker-alt"></i> Paris, France</p>
+                                <p><i class="fas fa-envelope"></i> nazim.hameg@email.fr</p>
+                                <p><i class="fas fa-phone"></i> 06 10 78 31 56</p>
+                            </div>
+                            <a href="#" class="btn btn-primary w-100 mb-2">
+                                <i class="fas fa-download"></i> Télécharger le CV
+                            </a>
+                            <div class="social-links">
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8" data-aos="fade-left">
+                        <div class="about-content">
+                            <h3 class="mb-4">À propos de moi</h3>
+                            <p class="lead">Passionné par l'informatique et les nouvelles technologies, je suis actuellement en formation BTS SIO option SISR. Mon objectif est de devenir un expert en administration système et réseaux.</p>
+
+                            <h4 class="mt-5 mb-4">Compétences Techniques</h4>
+                            <div class="skills-container">
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <span><i class="fas fa-network-wired"></i> Administration Réseaux</span>
+                                        <span class="skill-percentage">85%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <span><i class="fas fa-shield-alt"></i> Cybersécurité</span>
+                                        <span class="skill-percentage">80%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <span><i class="fas fa-server"></i> Administration Systèmes</span>
+                                        <span class="skill-percentage">78%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 78%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <span><i class="fab fa-linux"></i> Linux / Windows Server</span>
+                                        <span class="skill-percentage">82%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 82%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <span><i class="fas fa-database"></i> Base de données</span>
+                                        <span class="skill-percentage">75%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-header">
+                                        <span><i class="fas fa-code"></i> Scripting (Bash, PowerShell)</span>
+                                        <span class="skill-percentage">70%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 70%"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h4 class="mt-5 mb-4">Technologies maîtrisées</h4>
+                            <div class="tech-badges">
+                                <span class="tech-badge"><i class="fab fa-linux"></i> Linux</span>
+                                <span class="tech-badge"><i class="fab fa-windows"></i> Windows Server</span>
+                                <span class="tech-badge"><i class="fas fa-network-wired"></i> Cisco</span>
+                                <span class="tech-badge"><i class="fas fa-fire"></i> Firewall</span>
+                                <span class="tech-badge"><i class="fas fa-shield-alt"></i> VPN</span>
+                                <span class="tech-badge"><i class="fas fa-server"></i> VMware</span>
+                                <span class="tech-badge"><i class="fab fa-docker"></i> Docker</span>
+                                <span class="tech-badge"><i class="fas fa-database"></i> SQL</span>
+                                <span class="tech-badge"><i class="fab fa-git-alt"></i> Git</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="bts-sio" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">
+                    <i class="fas fa-graduation-cap"></i>
+                    BTS SIO - Option SISR
+                </h2>
+                <div class="row">
+                    <div class="col-lg-6" data-aos="fade-right">
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h3>Qu'est-ce que le BTS SIO ?</h3>
+                            <p>Le BTS Services Informatiques aux Organisations forme des techniciens capables de gérer un parc informatique, d'administrer un réseau et de répondre aux besoins des utilisateurs.</p>
+                            <p>La formation se décline en deux options :</p>
+                            <ul>
+                                <li><strong>SISR</strong> : Solutions d'Infrastructure, Systèmes et Réseaux</li>
+                                <li><strong>SLAM</strong> : Solutions Logicielles et Applications Métiers</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-left">
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <h3>Option SISR - Mon choix</h3>
+                            <p>L'option SISR forme des spécialistes en infrastructure réseau et système. Les compétences développées incluent :</p>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Installation et configuration de serveurs</li>
+                                <li><i class="fas fa-check"></i> Administration des réseaux et systèmes</li>
+                                <li><i class="fas fa-check"></i> Gestion de la sécurité informatique</li>
+                                <li><i class="fas fa-check"></i> Support et assistance aux utilisateurs</li>
+                                <li><i class="fas fa-check"></i> Virtualisation et cloud computing</li>
+                                <li><i class="fas fa-check"></i> Supervision d'infrastructures</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-lg-12" data-aos="fade-up">
+                        <div class="info-card">
+                            <h3 class="text-center mb-4">Les compétences clés du SISR</h3>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="competence-box">
+                                        <i class="fas fa-server"></i>
+                                        <h4>Infrastructure</h4>
+                                        <p>Installation et maintenance de serveurs physiques et virtuels</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="competence-box">
+                                        <i class="fas fa-shield-alt"></i>
+                                        <h4>Sécurité</h4>
+                                        <p>Mise en place de solutions de sécurité et protection des données</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="competence-box">
+                                        <i class="fas fa-network-wired"></i>
+                                        <h4>Réseaux</h4>
+                                        <p>Configuration et gestion d'architectures réseau complexes</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="e4" class="section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">
+                    <i class="fas fa-code"></i>
+                    E4 - Projets
+                </h2>
+
+                <div class="projects-filter mb-5" data-aos="fade-up">
+                    <button class="filter-btn active" data-filter="all">Tous</button>
+                    <button class="filter-btn" data-filter="annee1">1ère année</button>
+                    <button class="filter-btn" data-filter="annee2">2ème année</button>
+                    <button class="filter-btn" data-filter="perso">Personnels</button>
+                </div>
+
+                <div class="row projects-grid">
+                    <div class="col-lg-4 col-md-6 mb-4 project-item" data-category="annee1" data-aos="fade-up">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg" alt="Projet réseau">
+                                <div class="project-overlay">
+                                    <div class="project-links">
+                                        <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-tag">1ère année</div>
+                                <h3>Infrastructure réseau d'entreprise</h3>
+                                <p>Conception et déploiement d'une architecture réseau complète avec VLAN, routage inter-VLAN et sécurisation des accès.</p>
+                                <div class="project-tech">
+                                    <span><i class="fas fa-network-wired"></i> Cisco</span>
+                                    <span><i class="fas fa-shield-alt"></i> Sécurité</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4 project-item" data-category="annee1" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg" alt="Serveur Windows">
+                                <div class="project-overlay">
+                                    <div class="project-links">
+                                        <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-tag">1ère année</div>
+                                <h3>Serveur Active Directory</h3>
+                                <p>Installation et configuration d'un serveur Windows Server avec Active Directory, GPO et gestion des utilisateurs.</p>
+                                <div class="project-tech">
+                                    <span><i class="fab fa-windows"></i> Windows Server</span>
+                                    <span><i class="fas fa-users"></i> AD</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4 project-item" data-category="annee1" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg" alt="Base de données">
+                                <div class="project-overlay">
+                                    <div class="project-links">
+                                        <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-tag">1ère année</div>
+                                <h3>Système de sauvegarde automatisé</h3>
+                                <p>Mise en place d'une solution de sauvegarde automatique avec scripts bash et planification des tâches.</p>
+                                <div class="project-tech">
+                                    <span><i class="fab fa-linux"></i> Linux</span>
+                                    <span><i class="fas fa-code"></i> Bash</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4 project-item" data-category="annee2" data-aos="fade-up">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg" alt="Sécurité">
+                                <div class="project-overlay">
+                                    <div class="project-links">
+                                        <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-tag">2ème année</div>
+                                <h3>Audit de sécurité réseau</h3>
+                                <p>Réalisation d'un audit de sécurité complet avec scan de vulnérabilités et recommandations de sécurisation.</p>
+                                <div class="project-tech">
+                                    <span><i class="fas fa-shield-alt"></i> Nmap</span>
+                                    <span><i class="fas fa-bug"></i> Nessus</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4 project-item" data-category="annee2" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg" alt="Cloud">
+                                <div class="project-overlay">
+                                    <div class="project-links">
+                                        <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-tag">2ème année</div>
+                                <h3>Infrastructure virtualisée</h3>
+                                <p>Déploiement d'une infrastructure complète sous VMware avec haute disponibilité et répartition de charge.</p>
+                                <div class="project-tech">
+                                    <span><i class="fas fa-server"></i> VMware</span>
+                                    <span><i class="fas fa-cloud"></i> ESXi</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4 project-item" data-category="perso" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="https://images.pexels.com/photos/1181316/pexels-photo-1181316.jpeg" alt="Homelab">
+                                <div class="project-overlay">
+                                    <div class="project-links">
+                                        <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <div class="project-tag">Personnel</div>
+                                <h3>Homelab personnel</h3>
+                                <p>Création d'un laboratoire domestique avec serveurs physiques et virtuels pour l'apprentissage et les tests.</p>
+                                <div class="project-tech">
+                                    <span><i class="fab fa-docker"></i> Docker</span>
+                                    <span><i class="fas fa-home"></i> Homelab</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="e5" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">
+                    <i class="fas fa-briefcase"></i>
+                    E5 - Professionnel
+                </h2>
+                <p class="text-center mb-5" data-aos="fade-up">Expériences professionnelles et stages en entreprise</p>
+
+                <div class="row">
+                    <div class="col-lg-6 mb-4" data-aos="fade-up">
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-building"></i>
+                            </div>
+                            <h3>Stage 1ère année</h3>
+                            <p><strong>Entreprise:</strong> [Nom de l'entreprise]</p>
+                            <p><strong>Poste:</strong> Technicien Support Informatique</p>
+                            <p><strong>Durée:</strong> [Période du stage]</p>
+                            <p><strong>Missions:</strong></p>
+                            <ul>
+                                <li>Support utilisateurs et dépannage informatique</li>
+                                <li>Maintenance du parc informatique</li>
+                                <li>Installation et configuration de postes de travail</li>
+                                <li>Gestion des tickets d'incident</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="info-card">
+                            <div class="info-icon">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <h3>Stage 2ème année</h3>
+                            <p><strong>Entreprise:</strong> [Nom de l'entreprise]</p>
+                            <p><strong>Poste:</strong> Administrateur Réseau et Système</p>
+                            <p><strong>Durée:</strong> [Période du stage]</p>
+                            <p><strong>Missions:</strong></p>
+                            <ul>
+                                <li>Administration des serveurs et de l'infrastructure réseau</li>
+                                <li>Configuration et maintenance des équipements réseau</li>
+                                <li>Gestion des utilisateurs et des droits d'accès</li>
+                                <li>Sécurisation de l'infrastructure informatique</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-lg-12" data-aos="fade-up">
+                        <div class="info-card">
+                            <h3 class="mb-4">Compétences acquises en entreprise</h3>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="competence-box">
+                                        <i class="fas fa-users"></i>
+                                        <h4>Communication</h4>
+                                        <p>Interaction avec les utilisateurs et les collaborateurs</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="competence-box">
+                                        <i class="fas fa-tools"></i>
+                                        <h4>Dépannage</h4>
+                                        <p>Résolution de problèmes techniques en environnement professionnel</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="competence-box">
+                                        <i class="fas fa-clock"></i>
+                                        <h4>Rigueur</h4>
+                                        <p>Respect des délais et des processus établis</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="veille" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">
+                    <i class="fas fa-rss"></i>
+                    Veille Technologique
+                </h2>
+                <p class="text-center mb-5" data-aos="fade-up">Dernières actualités en cybersécurité, IA et technologies réseau</p>
+
+                <div class="terminal-container" data-aos="fade-up">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="terminal-btn close"></span>
+                            <span class="terminal-btn minimize"></span>
+                            <span class="terminal-btn maximize"></span>
+                        </div>
+                        <div class="terminal-title">veille_technologique.sh</div>
+                    </div>
+                    <div class="terminal-body" id="terminal-body">
+                        <div class="terminal-line">
+                            <span class="terminal-prompt">root@nazim:~$</span>
+                            <span class="terminal-command">./fetch_tech_news.sh</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="terminal-output">[INFO] Chargement des dernières actualités...</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+                        <div class="veille-card">
+                            <div class="veille-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="veille-date">3 décembre 2025</div>
+                            <h3>Nouvelle faille critique dans OpenSSL</h3>
+                            <p>Une vulnérabilité majeure a été découverte affectant les versions récentes d'OpenSSL. Mise à jour urgente recommandée.</p>
+                            <a href="#" class="veille-link">Lire la suite <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="veille-card">
+                            <div class="veille-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="veille-date">2 décembre 2025</div>
+                            <h3>IA et cybersécurité : nouveaux défis</h3>
+                            <p>L'intelligence artificielle révolutionne la détection des menaces mais pose aussi de nouveaux risques de sécurité.</p>
+                            <a href="#" class="veille-link">Lire la suite <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="veille-card">
+                            <div class="veille-icon">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <div class="veille-date">1 décembre 2025</div>
+                            <h3>Wi-Fi 7 : la nouvelle génération</h3>
+                            <p>Le Wi-Fi 7 arrive avec des débits jusqu'à 46 Gbps et une latence ultra-faible pour les applications critiques.</p>
+                            <a href="#" class="veille-link">Lire la suite <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+                        <div class="veille-card">
+                            <div class="veille-icon">
+                                <i class="fas fa-bug"></i>
+                            </div>
+                            <div class="veille-date">30 novembre 2025</div>
+                            <h3>Ransomware : nouvelles techniques d'attaque</h3>
+                            <p>Les cybercriminels développent des méthodes d'attaque de plus en plus sophistiquées pour contourner les défenses.</p>
+                            <a href="#" class="veille-link">Lire la suite <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="veille-card">
+                            <div class="veille-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <div class="veille-date">29 novembre 2025</div>
+                            <h3>Zero Trust : sécurité cloud</h3>
+                            <p>L'architecture Zero Trust devient incontournable pour sécuriser les infrastructures cloud modernes.</p>
+                            <a href="#" class="veille-link">Lire la suite <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="veille-card">
+                            <div class="veille-icon">
+                                <i class="fas fa-lock"></i>
+                            </div>
+                            <div class="veille-date">28 novembre 2025</div>
+                            <h3>ANSSI : nouvelles recommandations</h3>
+                            <p>L'ANSSI publie un nouveau guide de sécurisation des infrastructures réseau pour les entreprises.</p>
+                            <a href="#" class="veille-link">Lire la suite <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certificats" class="section">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">
+                    <i class="fas fa-certificate"></i>
+                    Certifications & Formations
+                </h2>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+                        <div class="certificate-card">
+                            <div class="certificate-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h3>ANSII - SecNumAcadémie</h3>
+                            <p>Formation en cybersécurité proposée par l'Agence Nationale de la Sécurité des Systèmes d'Information</p>
+                            <div class="certificate-date">
+                                <i class="fas fa-calendar"></i> 2024
+                            </div>
+                            <a href="#" class="btn btn-outline-primary w-100">
+                                <i class="fas fa-download"></i> Télécharger
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="certificate-card">
+                            <div class="certificate-icon">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <h3>Cisco CCNA</h3>
+                            <p>Cisco Certified Network Associate - Certification réseaux reconnue mondialement</p>
+                            <div class="certificate-date">
+                                <i class="fas fa-calendar"></i> 2024
+                            </div>
+                            <a href="#" class="btn btn-outline-primary w-100">
+                                <i class="fas fa-download"></i> Télécharger
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="certificate-card">
+                            <div class="certificate-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h3>PIX - Niveau Expert</h3>
+                            <p>Certification des compétences numériques - Niveau expert obtenu avec mention</p>
+                            <div class="certificate-date">
+                                <i class="fas fa-calendar"></i> 2024
+                            </div>
+                            <a href="#" class="btn btn-outline-primary w-100">
+                                <i class="fas fa-download"></i> Télécharger
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+                        <div class="certificate-card">
+                            <div class="certificate-icon">
+                                <i class="fab fa-linux"></i>
+                            </div>
+                            <h3>Linux Foundation</h3>
+                            <p>Formation complète sur l'administration système Linux et les commandes avancées</p>
+                            <div class="certificate-date">
+                                <i class="fas fa-calendar"></i> 2023
+                            </div>
+                            <a href="#" class="btn btn-outline-primary w-100">
+                                <i class="fas fa-download"></i> Télécharger
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="certificate-card">
+                            <div class="certificate-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <h3>MOOC Cybersécurité</h3>
+                            <p>Cours en ligne sur les fondamentaux de la cybersécurité et la protection des systèmes</p>
+                            <div class="certificate-date">
+                                <i class="fas fa-calendar"></i> 2023
+                            </div>
+                            <a href="#" class="btn btn-outline-primary w-100">
+                                <i class="fas fa-download"></i> Télécharger
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="certificate-card">
+                            <div class="certificate-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3>OpenClassrooms</h3>
+                            <p>Parcours complet : Administrateur d'infrastructures sécurisées</p>
+                            <div class="certificate-date">
+                                <i class="fas fa-calendar"></i> 2023
+                            </div>
+                            <a href="#" class="btn btn-outline-primary w-100">
+                                <i class="fas fa-download"></i> Télécharger
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title" data-aos="fade-up">
+                    <i class="fas fa-envelope"></i>
+                    Me Contacter
+                </h2>
+                <p class="text-center mb-5" data-aos="fade-up">N'hésitez pas à me contacter pour toute opportunité ou question</p>
+
+                <div class="row">
+                    <div class="col-lg-4 mb-4" data-aos="fade-right">
+                        <div class="contact-info-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <h3>Adresse</h3>
+                            <p>Paris, France<br>75000</p>
+                        </div>
+                        <div class="contact-info-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <h3>Email</h3>
+                            <p>nazim.hameg@email.fr</p>
+                        </div>
+                        <div class="contact-info-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <h3>Téléphone</h3>
+                            <p>06 10 78 31 56</p>
+                        </div>
+                        <div class="contact-socials">
+                            <a href="#" class="contact-social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="contact-social-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="contact-social-link"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8" data-aos="fade-left">
+                        <div class="contact-form-card">
+                            <form id="contact-form">
+                                <div class="form-group mb-4">
+                                    <label for="name"><i class="fas fa-user"></i> Nom complet</label>
+                                    <input type="text" class="form-control" id="name" name="name" required>
+                                </div>
+                                <div class="form-group mb-4">
+                                    <label for="email"><i class="fas fa-envelope"></i> Email</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                </div>
+                                <div class="form-group mb-4">
+                                    <label for="subject"><i class="fas fa-tag"></i> Sujet</label>
+                                    <input type="text" class="form-control" id="subject" name="subject" required>
+                                </div>
+                                <div class="form-group mb-4">
+                                    <label for="message"><i class="fas fa-comment"></i> Message</label>
+                                    <textarea class="form-control" id="message" name="message" rows="6" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-lg w-100">
+                                    <i class="fas fa-paper-plane"></i> Envoyer le message
+                                </button>
+                            </form>
+                            <div id="form-message" class="form-message"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h4>Nazim HAMEG</h4>
+                    <p>Étudiant en BTS SIO option SISR, passionné par les technologies réseau et la cybersécurité.</p>
+                    <div class="footer-socials">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h4>Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="portfolio.html#accueil">Accueil</a></li>
+                        <li><a href="presentation.html">Présentation</a></li>
+                        <li><a href="bts-sio.html">BTS SIO</a></li>
+                        <li><a href="e5.html">Épreuve E5</a></li>
+                        <li><a href="e6.html">Épreuve E6</a></li>
+                        <li><a href="veille.html">Veille Tech</a></li>
+                        <li><a href="entreprise.html">Entreprise</a></li>
+                        <li><a href="contact.html" target="_blank" rel="noopener noreferrer">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-envelope"></i> nazim.hameg@email.fr</p>
+                    <p><i class="fas fa-phone"></i> 06 10 78 31 56</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Paris, France</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Nazim HAMEG - Tous droits réservés | Portfolio BTS SIO SISR</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scroll-top" class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
